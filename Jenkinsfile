@@ -3,10 +3,10 @@
 multibranchJavaTemplate {
     artifact = [
         name : 'javaDemo.jar',
-        path : 'target',
+        path : '/build/libs/',
         repo_name : 'pataconf'
     ]
-    
+
     jUnitTestReport = ''
     
     integrationTest = [
