@@ -2,7 +2,7 @@
 
 multibranchJavaTemplate {
     artifact = [
-        name : 'javaDemo.jar',
+        name : 'javaDemo-0.0.1-SNAPSHOT.jar',
         path : 'build/libs',
         repo_name : 'pataconf'
     ]
