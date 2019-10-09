@@ -7,7 +7,7 @@ multibranchJavaTemplate {
         repo_name : 'pataconf'
     ]
 
-    jUnitTestReport = 'build/test-results/TEST-*.xml'
+    jUnitTestReport = 'build/test-results/test/TEST-*.xml'
     
     integrationTest = [
         executeDllo : true,
