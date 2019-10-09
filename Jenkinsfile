@@ -1,4 +1,4 @@
-@Library('jenkins-template') _
+@Library('devco_template') _
 
 multibranchJavaTemplate {
     artifact {
