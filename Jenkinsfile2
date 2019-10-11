@@ -1,0 +1,21 @@
+@Library('devco_template') _
+
+multibranchJavaTemplate {
+    artifact = [
+        name : 'javaDemo-0.0.1-SNAPSHOT.jar',
+        path : 'build/libs',
+        repo_name : 'pataconf'
+    ]
+
+    jUnitTestReport = 'build/test-results/test/TEST-*.xml'
+    
+    integrationTest = [
+        executeDllo : false,
+        executeQa : true
+    ]
+
+    e2eTest = [
+        executeDllo : false,
+        executeQa : false
+    ]
+}
