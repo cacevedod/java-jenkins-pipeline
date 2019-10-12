@@ -11,7 +11,7 @@ multibranchJavaTemplate {
     
     integrationTest = [
         executeDllo : true,
-        executeQa : false
+        executeQa : true
     ]
 
     e2eTest = [
